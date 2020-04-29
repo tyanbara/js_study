@@ -6,6 +6,8 @@
 // @author       You
 // @match        https://02.api.screen.rakuten.co.jp/1/trendResearch*
 
+// @downloadURL https://github.com/tyanbara/js_study/raw/master/trend.user.js
+// @updateURL   https://github.com/tyanbara/js_study/raw/master/trend.user.js
 // @grant        none
 // ==/UserScript==
 

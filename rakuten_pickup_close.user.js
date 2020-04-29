@@ -17,6 +17,8 @@
 // @match        https://www.rakuten-card.co.jp/campaign/sales/ichiba_recommend/
 // @match        https://item.rakuten.co.jp/*scid=wi_ichi_ad_pc_*
 
+// @downloadURL https://github.com/tyanbara/js_study/raw/master/rakuten_pickup_close.user.js
+// @updateURL   https://github.com/tyanbara/js_study/raw/master/rakuten_pickup_close.user.js
 // @grant        none
 // ==/UserScript==
 

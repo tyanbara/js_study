@@ -5,6 +5,10 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://kuji.rakuten.co.jp/*
+
+// @downloadURL https://github.com/tyanbara/js_study/raw/master/rakuten_kuji.user.js
+// @updateURL   https://github.com/tyanbara/js_study/raw/master/rakuten_kuji.user.js
+
 // @grant        none
 // ==/UserScript==
 

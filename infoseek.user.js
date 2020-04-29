@@ -6,7 +6,7 @@
 // @author       You
 // @match        https://www.infoseek.co.jp/
 // @downloadURL https://github.com/tyanbara/js_study/raw/master/infoseek.user.js
-// @updateURL  https://github.com/tyanbara/js_study/raw/master/infoseek.user.js
+// @updateURL   https://github.com/tyanbara/js_study/raw/master/infoseek.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -27,7 +27,6 @@ setInterval(function () {
             if (closer == undefined) {
                 closer = window.open('about:blank', '_self').close();
             }
-            //}
         } else {
             closer = window.open('about:blank', '_self').close();
             console.log("firefox");

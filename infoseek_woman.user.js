@@ -5,7 +5,8 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://woman.infoseek.co.jp
-
+// @downloadURL https://github.com/tyanbara/js_study/raw/master/infoseek_woman.user.js
+// @updateURL   https://github.com/tyanbara/js_study/raw/master/infoseek_woman.user.js
 // @grant        none
 // ==/UserScript==
 

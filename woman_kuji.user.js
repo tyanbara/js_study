@@ -6,6 +6,8 @@
 // @author       You
 // @match        https://woman.infoseek.co.jp/luckykuji/
 
+// @downloadURL https://github.com/tyanbara/js_study/raw/master/woman_kuji.user.js
+// @updateURL   https://github.com/tyanbara/js_study/raw/master/woman_kuji.user.js
 // @grant        none
 // ==/UserScript==
 

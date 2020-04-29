@@ -6,6 +6,9 @@
 // @author       You
 // @match        https://websearch.rakuten.co.jp/Web*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
+
+// @downloadURL https://github.com/tyanbara/js_study/raw/master/rakuten_search_ref2.user.js
+// @updateURL   https://github.com/tyanbara/js_study/raw/master/rakuten_search_ref2.user.js
 // @grant        none
 // ==/UserScript==
 

@@ -38,6 +38,10 @@
 // @match        https://point-g.rakuten.co.jp/campaign/*
 // @match        https://point-g.rakuten.co.jp/campaign*
 
+
+// @downloadURL https://github.com/tyanbara/js_study/raw/master/rakuten_kuji_close.user.js
+// @updateURL   https://github.com/tyanbara/js_study/raw/master/rakuten_kuji_close.user.js
+
 // @grant        none
 // ==/UserScript==
 
@@ -46,7 +50,6 @@
 //$(document).ready(function() {
 //var closer = window.open('about:blank','_self').close()
 setInterval(function () {
-    // var closer = window.open('about:blank','_self').close()
     var closer;
     if (/Chrome/i.test(navigator.userAgent)) {
         console.log("chrome");
