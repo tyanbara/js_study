@@ -1,14 +1,12 @@
 // ==UserScript==
 // @name         infoseek
 // @namespace    http://tampermonkey.net/
-// @version      0.10
+// @version      0.11
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.infoseek.co.jp/
-
 // @downloadURL https://github.com/tyanbara/js_study/raw/master/infoseek.user.js
 // @updateURL  https://github.com/tyanbara/js_study/raw/master/infoseek.user.js
-
 // @grant        none
 // ==/UserScript==
 
