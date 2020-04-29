@@ -10,9 +10,9 @@
 // ==/UserScript==
 
 
-window.onload = function(){
+window.onload = function () {
     var clickMe = document.getElementById("completionReportBtn");
-    var event = document.createEvent( "MouseEvents" ); // イベントオブジェクトを作成
+    var event = document.createEvent("MouseEvents"); // イベントオブジェクトを作成
     event.initEvent("click", false, true); // イベントの内容を設定
     clickMe.dispatchEvent(event);
 

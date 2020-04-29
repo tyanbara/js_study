@@ -10,25 +10,25 @@
 
 
 
-var delay_time = 1*1000;
+var delay_time = 1 * 1000;
 
 //$(document).ready(function() {
-setInterval(function(){
-//window.onload = function(){
-    var clickMe = document.getElementById("entry");
-    var event = document.createEvent( "MouseEvents" ); // イベントオブジェクトを作成
+setInterval(function () {
+	//window.onload = function(){
+	var clickMe = document.getElementById("entry");
+	var event = document.createEvent("MouseEvents"); // イベントオブジェクトを作成
 
 	event.initEvent("click", false, true); // イベントの内容を設定
 	console.log('OK1')
 
-	setTimeout(function(){
+	setTimeout(function () {
 		console.log('OK_click')
-     	clickMe.dispatchEvent(event);
-	},delay_time);
+		clickMe.dispatchEvent(event);
+	}, delay_time);
 
 
 
 
-//});
-//};
-},10000)
+	//});
+	//};
+}, 10000)
