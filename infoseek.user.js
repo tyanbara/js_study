@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         infoseek
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.11
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.infoseek.co.jp/
@@ -9,6 +9,7 @@
 // @grant        none
 // ==/UserScript==
 
+// 1
 var cnt = 0
 setInterval(function () {
 
