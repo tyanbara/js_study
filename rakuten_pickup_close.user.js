@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_pickup_close
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.11.1
 // @description  try to take over the world!
 // @author       You
 
@@ -19,31 +19,15 @@
 
 // @downloadURL https://github.com/tyanbara/js_study/raw/master/rakuten_pickup_close.user.js
 // @updateURL   https://github.com/tyanbara/js_study/raw/master/rakuten_pickup_close.user.js
+
+// @require      https://github.com/tyanbara/js_study/raw/master/window_close.user.js
+
 // @grant        none
+
 // ==/UserScript==
 
 
-//window.onload = function(){
-//$(document).ready(function() {
-//var closer = window.open('about:blank','_self').close()
 setInterval(function () {
-    // var closer = window.open('about:blank','_self').close()
-    var closer;
-    if (/Chrome/i.test(navigator.userAgent)) {
-        console.log("chrome");
-        closer = window.close();
-        if (closer == undefined) {
-            closer = window.open('about:blank', '_self').close();
-        } else {
-            window.close();
-        }
-        //}
-    } else {
-        closer = window.open('about:blank', '_self').close();
-        console.log("firefox");
-    }
+    my_window_close();
 }, 1000); // setInterval
 
-//});
-
-//};

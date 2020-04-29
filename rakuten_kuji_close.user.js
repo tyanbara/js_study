@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_kuji_close
 // @namespace    http://tampermonkey.net/
-// @version      0.11
+// @version      0.11.1
 // @description  try to take over the world!
 // @author       You
 
@@ -53,20 +53,6 @@
 //var closer = window.open('about:blank','_self').close()
 setInterval(function () {
     my_window_close();
-    // var closer;
-    // if (/Chrome/i.test(navigator.userAgent)) {
-    //     console.log("chrome");
-    //     closer = window.close();
-    //     if (closer == undefined) {
-    //         closer = window.open('about:blank', '_self').close();
-    //     } else {
-    //         window.close();
-    //     }
-    //     //}
-    // } else {
-    //     closer = window.open('about:blank', '_self').close();
-    //     console.log("firefox");
-    // }
 }, 1000); // setInterval
 
 //});
