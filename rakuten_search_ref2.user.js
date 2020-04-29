@@ -18,7 +18,6 @@
 
 window.onload = function () {
     setInterval(function () {
-        //var array1 = new Array('リンゴ', 'バナナ', 'イチゴ','アマゾン','あめぶろ','ana','ようつべ','pone','福島','お米','金券','クレヨン','ラッパ','ヒップホップ','お茶','ジュース','コカコーラ','新発売','ビックリマン');
         var array1 = new Array('リンゴ',
             'バナナ',
             'イチゴ',

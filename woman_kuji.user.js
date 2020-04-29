@@ -13,14 +13,11 @@
 
 var flag = 0
 setInterval(function () {
-    // var clickMe = document.getElementsByClassName("womanluckykuji_start");
     var clickMe = document.getElementById("kuji-play-area-start");
 
     var event = document.createEvent("MouseEvents"); // イベントオブジェクトを作成
     event.initEvent("click", false, true); // イベントの内容を設定
 
-    //kujiPlayBtn.off("click");
-    //kujiPlayArea.data("page") = 1;
     var aaaa = document.querySelector('#womanluckykuji_start');
     console.log(aaaa)
     aaaa.click();

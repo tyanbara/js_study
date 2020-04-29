@@ -17,8 +17,9 @@
 var delay_time = 1 * 1000;
 
 //$(document).ready(function() {
+//window.onload = function(){
 setInterval(function () {
-	//window.onload = function(){
+
 	var clickMe = document.getElementById("entry");
 	var event = document.createEvent("MouseEvents"); // イベントオブジェクトを作成
 
@@ -30,9 +31,4 @@ setInterval(function () {
 		clickMe.dispatchEvent(event);
 	}, delay_time);
 
-
-
-
-	//});
-	//};
 }, 10000)
