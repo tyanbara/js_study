@@ -1,5 +1,3 @@
-// class f4 itemButton
-
 // ==UserScript==
 // @name         screen
 // @namespace    http://tampermonkey.net/
@@ -14,13 +12,13 @@
 // ==/UserScript==
 
 
-window.onload = function(){
+window.onload = function () {
 
     var btm_lst = document.getElementsByClassName('f4 itemButton');
     var btm_lst_n = btm_lst.length;
 
-    for(var i ; i<btm_lst.length;i++ ){
-        console.log() btm_lst.length[i].textContent);
+    for (var i; i < btm_lst.length; i++) {
+        console.log(btm_lst.length[i].textContent);
     }
 
 
