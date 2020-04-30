@@ -14,6 +14,7 @@
 
 window.onload = function () {
 
+    console.log('start');
     var btm_lst = document.getElementsByClassName('f4 itemButton');
     var btm_lst_n = btm_lst.length;
 
