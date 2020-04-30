@@ -18,9 +18,18 @@ window.onload = function () {
     var btm_lst = document.getElementsByClassName('f4 itemButton');
     var btm_lst_n = btm_lst.length;
 
+    var hold_num = -1;
     for (var i; i < btm_lst.length; i++) {
         console.log(btm_lst.length[i].textContent);
+        if ('1ポイント' == btm_lst.length[i].textContent) {
+            hold_num = i;
+            break;
+        }
     }
 
-
+    if (hold_num > 0) {
+        var event = document.createEvent("MouseEvents"); // イベントオブジェクトを作成
+        event.initEvent("click", false, true); // イベントの内容を設定
+        btm_lst[hold_num].dispatchEvent(event);
+    }
 }
