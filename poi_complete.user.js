@@ -5,7 +5,6 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://pointmail.rakuten.co.jp/point/kezulot
-// @require      https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 
 // @downloadURL https://github.com/tyanbara/js_study/raw/master/poi_complete.user.js
 // @updateURL   https://github.com/tyanbara/js_study/raw/master/poi_complete.user.js

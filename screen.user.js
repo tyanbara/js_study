@@ -6,8 +6,6 @@
 // @author       You
 // @match        https://web.screen.rakuten.co.jp/app
 
-// @require      https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
-
 // @downloadURL https://github.com/tyanbara/js_study/raw/master/screen.user.js
 // @updateURL   https://github.com/tyanbara/js_study/raw/master/screen.user.js
 // @grant        none
