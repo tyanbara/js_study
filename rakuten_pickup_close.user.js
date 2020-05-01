@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         rakuten_pickup_close
 // @namespace    http://tampermonkey.net/
-// @version      0.11.2
+// @version      0.11.3
 // @description  try to take over the world!
 // @author       You
 
+// @require      https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 
 // @match        https://*.rakuten.co.jp/*/special_contents*
 // @match        https://*.rakuten.co.jp/*/ichiba_special_rpp_c*
@@ -27,8 +28,9 @@
 
 // ==/UserScript==
 
-
-setInterval(function () {
+jQuery(window).on('load', function ($) {
+// setTimeout(function () {
     my_window_close();
-}, 1000); // setInterval
+// }, 1000); // setInterval
+});
 

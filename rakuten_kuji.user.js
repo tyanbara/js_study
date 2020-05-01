@@ -1,10 +1,17 @@
 // ==UserScript==
 // @name         rakuten_kuji
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.1.1
 // @description  try to take over the world!
 // @author       You
 // @match        https://kuji.rakuten.co.jp/*
+
+// @exclude        https://kuji.rakuten.co.jp/*/already
+// @exclude        https://kuji.rakuten.co.jp/*/lose
+// @exclude        https://kuji.rakuten.co.jp/*/close
+// @exclude        https://kuji.rakuten.co.jp/*/win
+
+// @require      https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 
 // @downloadURL https://github.com/tyanbara/js_study/raw/master/rakuten_kuji.user.js
 // @updateURL   https://github.com/tyanbara/js_study/raw/master/rakuten_kuji.user.js
@@ -14,21 +21,18 @@
 
 
 
-var delay_time = 1 * 1000;
+var delay_time = 3 * 1000;
 
 //$(document).ready(function() {
-//window.onload = function(){
-setInterval(function () {
+jQuery(window).on('load', function ($) {
+		var clickMe = document.getElementById("entry");
+		var event = document.createEvent("MouseEvents"); // イベントオブジェクトを作成
 
-	var clickMe = document.getElementById("entry");
-	var event = document.createEvent("MouseEvents"); // イベントオブジェクトを作成
+		event.initEvent("click", false, true); // イベントの内容を設定
+		console.log('OK1')
 
-	event.initEvent("click", false, true); // イベントの内容を設定
-	console.log('OK1')
-
-	setTimeout(function () {
-		console.log('OK_click')
-		clickMe.dispatchEvent(event);
-	}, delay_time);
-
-}, 10000)
+		setTimeout(function () {
+			console.log('OK_click')
+			clickMe.dispatchEvent(event);
+		}, delay_time);
+});
