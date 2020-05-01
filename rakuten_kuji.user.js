@@ -24,18 +24,19 @@
 var delay_time = 3 * 1000;
 
 //$(document).ready(function() {
-jQuery(window).on('load', function ($) {
-		var clickMe = document.getElementById("entry");
-		// var event = document.createEvent("MouseEvents"); // イベントオブジェクトを作成
-		// event.initEvent("click", false, true); // イベントの内容を設定
+// jQuery(window).on('load', function ($) {
+// var clickMe = document.getElementById("entry");
+// var event = document.createEvent("MouseEvents"); // イベントオブジェクトを作成
+// event.initEvent("click", false, true); // イベントの内容を設定
 
-		console.log('OK1')
+// console.log('OK1')
 
-		setTimeout(function () {
-			console.log('OK_click');
-            console.log(clickMe);
-			// clickMe.dispatchEvent(event);
-            clickMe.click();
-		}, delay_time);
-});
+setTimeout(function () {
+	var clickMe = document.getElementById("entry");
+	console.log('OK_click');
+	console.log(clickMe);
+	// clickMe.dispatchEvent(event);
+	clickMe.click();
+}, delay_time);
+// });
 
