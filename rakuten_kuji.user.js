@@ -35,7 +35,7 @@ window.onload = function () {
 	setTimeout(function () {
 		var clickMe = document.getElementById("entry");
 		console.log('OK_click');
-		console.log(clickMe);
+		// console.log(clickMe);
 		// clickMe.dispatchEvent(event);
 		clickMe.click();
 	}, delay_time);

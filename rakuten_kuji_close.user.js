@@ -48,13 +48,13 @@
 // ==/UserScript==
 
 
-window.onload = function(){
-//$(document).ready(function() {
-//var closer = window.open('about:blank','_self').close()
-// setInterval(function () {
+window.onload = function () {
+    //$(document).ready(function() {
+    //var closer = window.open('about:blank','_self').close()
+    // setInterval(function () {
     my_window_close();
-// }, 1000); // setInterval
+    // }, 1000); // setInterval
 
-//});
+    //});
 
 };
