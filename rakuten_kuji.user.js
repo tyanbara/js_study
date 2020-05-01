@@ -31,12 +31,14 @@ var delay_time = 3 * 1000;
 
 // console.log('OK1')
 
-setTimeout(function () {
-	var clickMe = document.getElementById("entry");
-	console.log('OK_click');
-	console.log(clickMe);
-	// clickMe.dispatchEvent(event);
-	clickMe.click();
-}, delay_time);
+window.onload = function () {
+	setTimeout(function () {
+		var clickMe = document.getElementById("entry");
+		console.log('OK_click');
+		console.log(clickMe);
+		// clickMe.dispatchEvent(event);
+		clickMe.click();
+	}, delay_time);
+};
 // });
 
