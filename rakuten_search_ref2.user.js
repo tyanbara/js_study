@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_search_ref2
 // @namespace    http://tampermonkey.net/
-// @version      0.1.2
+// @version      0.1.3
 // @description  try to take over the world!
 // @author       You
 // @match        https://websearch.rakuten.co.jp/Web*
@@ -61,7 +61,8 @@ window.onload = function () {
 
     var delay_time = 10000;
 
-    setInterval(function () {
+    // setInterval(function () {
+    setTimeout(function () {
         var clickMe = document.getElementById("searchBtn");
         // var event = document.createEvent("MouseEvents"); // イベントオブジェクトを作成
         // event.initEvent("click", false, true); // イベントの内容を設定

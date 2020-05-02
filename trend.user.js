@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         trend
 // @namespace    http://tampermonkey.net/
-// @version      0.1.1
+// @version      0.1.2
 // @description  try to take over the world!
 // @author       You
 // @match        https://02.api.screen.rakuten.co.jp/1/trendResearch*
@@ -13,7 +13,8 @@
 
 
 window.onload = function () {
-    setInterval(function () {
+    // setInterval(function () {
+    setTimeout(function () {
         var randNum = Math.floor(Math.random() * (4 - 1) + 1);
         var owari = document.getElementsByClassName('errorDescription').length;
         var bbb = document.getElementsByClassName('bg-warning').length
