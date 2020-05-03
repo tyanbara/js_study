@@ -28,9 +28,9 @@
 // ==/UserScript==
 
 window.onload = function () {
-// jQuery(window).on('load', function ($) {
-// setTimeout(function () {
+    // jQuery(window).on('load', function ($) {
+    // setTimeout(function () {
     my_window_close();
-// }, 1000); // setInterval
+    // }, 1000); // setInterval
 };
 
