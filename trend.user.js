@@ -13,8 +13,8 @@
 
 
 window.onload = function () {
-    // setInterval(function () {
-    setTimeout(function () {
+    setInterval(function () {
+        // setTimeout(function () {
         var randNum = Math.floor(Math.random() * (4 - 1) + 1);
         var owari = document.getElementsByClassName('errorDescription').length;
         var bbb = document.getElementsByClassName('bg-warning').length

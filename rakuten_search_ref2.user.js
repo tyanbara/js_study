@@ -61,8 +61,8 @@ window.onload = function () {
 
     var delay_time = 10000;
 
-    // setInterval(function () {
-    setTimeout(function () {
+    setInterval(function () {
+        // setTimeout(function () {
         var clickMe = document.getElementById("searchBtn");
         // var event = document.createEvent("MouseEvents"); // イベントオブジェクトを作成
         // event.initEvent("click", false, true); // イベントの内容を設定
