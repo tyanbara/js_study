@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_pickup_close
 // @namespace    http://tampermonkey.net/
-// @version      0.11.4
+// @version      0.11.5
 // @description  try to take over the world!
 // @author       You
 
@@ -27,10 +27,15 @@
 
 // ==/UserScript==
 
-window.onload = function () {
-    // jQuery(window).on('load', function ($) {
-    // setTimeout(function () {
+// window.onload = function () {
+//     // jQuery(window).on('load', function ($) {
+//     // setTimeout(function () {
+//     my_window_close();
+//     // }, 1000); // setInterval
+// };
+
+(function () {
     my_window_close();
-    // }, 1000); // setInterval
-};
+}());
+
 
