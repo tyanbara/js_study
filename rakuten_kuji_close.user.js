@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_kuji_close
 // @namespace    http://tampermonkey.net/
-// @version      0.11.2
+// @version      0.11.3
 // @description  try to take over the world!
 // @author       You
 
@@ -9,6 +9,7 @@
 // @match        https://kuji.rakuten.co.jp/*/lose
 // @match        https://kuji.rakuten.co.jp/*/close
 // @match        https://kuji.rakuten.co.jp/*/win
+// @match        https://kuji.rakuten.co.jp/*/preopen
 // @match        https://kuji.rakuten.co.jp/root/*
 
 // @match        https://viber.co.jp/news/viber_kuji/*

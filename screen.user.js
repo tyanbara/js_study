@@ -13,7 +13,6 @@
 
 
 // $(document).ready(function () {
-
 window.onload = function () {
     // jQuery(window).on('load', function ($) {
     //    function  {
