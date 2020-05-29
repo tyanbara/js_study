@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_kuji
 // @namespace    http://tampermonkey.net/
-// @version      0.1.3
+// @version      0.1.4
 // @description  try to take over the world!
 // @author       You
 // @match        https://kuji.rakuten.co.jp/*
@@ -10,7 +10,7 @@
 // @exclude        https://kuji.rakuten.co.jp/*/lose
 // @exclude        https://kuji.rakuten.co.jp/*/close
 // @exclude        https://kuji.rakuten.co.jp/*/win
-
+// @exclude        https://kuji.rakuten.co.jp/*/preopen
 
 
 // @downloadURL https://github.com/tyanbara/js_study/raw/master/rakuten_kuji.user.js
