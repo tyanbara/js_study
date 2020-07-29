@@ -70,12 +70,12 @@ window.onload = function () {
 
         var result = document.getElementById("srchformtxt_qt");
 
-        var num_txt = document.getElementById("curr-kuchisu-count");
+        // var num_txt = document.getElementById("curr-kuchisu-count");
 
-        var num_txt2 = document.getElementsByClassName('KuchisuBar-module__progressCounter1__1NVVE')
+        // var num_txt2 = document.getElementsByClassName('KuchisuBar-module__progressCounter1__1NVVE');
+        var num_txt2 = document.getElementsByClassName('sc-fzqNJr cShgDs KuchisuBar-module__progressCounter1__1NVVE');
 
         console.log(num_txt2[0].innerText);
-
         if (num_txt2[0].innerText == "30") {
             var closer = window.open('about:blank', '_self').close()
         }
@@ -91,7 +91,7 @@ window.onload = function () {
 
         // clickMe.dispatchEvent(event);
         clickMe.click();
-    }, 5000); // setInterval
+    }, delay_time); // setInterval
 
 };
     // );
