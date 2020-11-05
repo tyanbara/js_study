@@ -82,9 +82,8 @@ window.onload = function () {
 
         console.log(result.value)
 
-        var min = 0;
-        var max = array1.length - 1;
-        var i = Math.floor(Math.random() * (max));
+
+        var i = Math.floor(Math.random() * (array1.length));
         var next_srch = array1[i]
         console.log(i)
         result.value = next_srch;
