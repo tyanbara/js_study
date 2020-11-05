@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_search_ref2
 // @namespace    http://tampermonkey.net/
-// @version      0.1.5
+// @version      0.1.6
 // @description  try to take over the world!
 // @author       You
 // @match        https://websearch.rakuten.co.jp/Web*
