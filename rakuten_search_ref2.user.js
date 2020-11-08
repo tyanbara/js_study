@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_search_ref2
 // @namespace    http://tampermonkey.net/
-// @version      0.1.6
+// @version      0.1.7
 // @description  try to take over the world!
 // @author       You
 // @match        https://websearch.rakuten.co.jp/Web*
@@ -15,14 +15,19 @@
 window.onload = function () {
     // jQuery(window).on('load', function ($) {
 
-    var array1 = new Array('リンゴ',
+    var array1 = new Array(
+        'リンゴ',
         'バナナ',
         'イチゴ',
         'アマゾン',
         'あめぶろ',
         'ana',
         'ようつべ',
-        'pone',
+        'youtube',
+        'twitter',
+        'ホラー映画',
+        'キーボード',
+        '美術館',
         '福島',
         'お米',
         '金券',
