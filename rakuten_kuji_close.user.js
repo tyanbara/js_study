@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_kuji_close
 // @namespace    http://tampermonkey.net/
-// @version      0.11.3
+// @version      0.11.4
 // @description  try to take over the world!
 // @author       You
 
@@ -38,7 +38,7 @@
 // @match        https://delivery.rakuten.co.jp/?scid=*
 // @match        https://point-g.rakuten.co.jp/campaign/*
 // @match        https://point-g.rakuten.co.jp/campaign*
-
+// @match        https://point.rakuten.co.jp/doc/lottery/lucky/done3.html
 
 // @downloadURL https://github.com/tyanbara/js_study/raw/master/rakuten_kuji_close.user.js
 // @updateURL   https://github.com/tyanbara/js_study/raw/master/rakuten_kuji_close.user.js
