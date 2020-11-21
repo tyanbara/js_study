@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_kuji_close
 // @namespace    http://tampermonkey.net/
-// @version      0.11.4
+// @version      0.11.5
 // @description  try to take over the world!
 // @author       You
 
@@ -36,7 +36,6 @@
 // @match        https://travel.rakuten.co.jp/*scid*
 // @match        https://travel.rakuten.co.jp/movement/fukushima/201907/?scid=*
 // @match        https://delivery.rakuten.co.jp/?scid=*
-// @match        https://point-g.rakuten.co.jp/campaign/*
 // @match        https://point-g.rakuten.co.jp/campaign*
 // @match        https://point.rakuten.co.jp/doc/lottery/lucky/done3.html
 
