@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_kuji_close
 // @namespace    http://tampermonkey.net/
-// @version      0.11.5
+// @version      0.11.6
 // @description  try to take over the world!
 // @author       You
 
