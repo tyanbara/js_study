@@ -24,7 +24,7 @@
 // @match        https://www.rakuten-card.co.jp/point/pointsave/luckylots*
 // @match        https://point.rakuten.co.jp/doc/app/pc/pointclub_app/index.html*
 // @match        https://pointmail.rakuten.co.jp/point/kezulot/blank
-
+// @match        https://point.rakuten.co.jp/doc/lottery/lucky/done2.html
 
 // @match        https://woman.infoseek.co.jp/shopping/coupon*
 // @match        https://quiz.infoseek.co.jp
