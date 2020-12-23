@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         kezulot_complete
 // @namespace    http://tampermonkey.net/
-// @version      0.1.2
+// @version      0.1.3
 // @description  try to take over the world!
 // @author       You
 // @match        https://pointmail.rakuten.co.jp/subcard/complete
@@ -20,8 +20,18 @@ window.onload = function () {
     clickMe.click();
 
     setTimeout(function () {
+        var l1 = document.getElementById("kotsukon-mail-de-point");
+        var l2 = document.getElementById("kotsukon-lucky-lottery");
+        var l3 = document.getElementById("kotsukon-r-lucky-lottery");
+        var l4 = document.getElementById("kotsukon-lucky-bingo");
+        var l5 = document.getElementById("kotsukon-r-web-search");
+
+        console.log(l1.className)
+        console.log(l2.className)
         var pr = document.getElementById("reportError");
-        if (pr.innerText == "本日の報告は完了しています") {
+        // if (pr.innerText == "本日の報告は完了しています") {
+        if (l1.className =="complete" & l2.className =="complete"& l3.className =="complete"
+        & l4.className =="complete"& l5.className =="complete") {
             console.log(pr.innerText)
             my_window_close();
         }
@@ -29,3 +39,8 @@ window.onload = function () {
 }
 
 
+// kotsukon-mail-de-point
+// kotsukon-lucky-lottery
+// kotsukon-r-lucky-lottery
+// kotsukon-lucky-bingo
+// kotsukon-r-web-search

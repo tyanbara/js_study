@@ -22,7 +22,9 @@ window.onload = function () {
         var clickMe = document.getElementsByClassName("lottery-btn");
         
         console.log(clickMe);
-        clickMe[0].click();
+        if (null != clickMe){
+            clickMe[0].click();
+        }
     }, delay_time);
 };
 
