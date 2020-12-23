@@ -39,6 +39,7 @@
 // @match        https://point-g.rakuten.co.jp/campaign*
 // @match        https://point.rakuten.co.jp/doc/lottery/lucky/done3.html
 // @match        https://point.rakuten.co.jp/doc/lottery/lucky/done5.html
+// @match        https://edy.rakuten.co.jp/card/system/outofservice
 
 // @downloadURL https://github.com/tyanbara/js_study/raw/master/rakuten_kuji_close.user.js
 // @updateURL   https://github.com/tyanbara/js_study/raw/master/rakuten_kuji_close.user.js

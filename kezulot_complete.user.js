@@ -30,8 +30,8 @@ window.onload = function () {
         console.log(l2.className)
         var pr = document.getElementById("reportError");
         // if (pr.innerText == "本日の報告は完了しています") {
-        if (l1.className =="complete" & l2.className =="complete"& l3.className =="complete"
-        & l4.className =="complete"& l5.className =="complete") {
+        if (l1.className == "complete" & l2.className == "complete" & l3.className == "complete"
+            & l4.className == "complete" & l5.className == "complete") {
             console.log(pr.innerText)
             my_window_close();
         }

@@ -20,9 +20,9 @@ window.onload = function () {
     setTimeout(function () {
         // var clickMe = document.getElementById("video-add-modal-play-btn");
         var clickMe = document.getElementsByClassName("lottery-btn");
-        
+
         console.log(clickMe);
-        if (null != clickMe){
+        if (null != clickMe) {
             clickMe[0].click();
         }
     }, delay_time);
