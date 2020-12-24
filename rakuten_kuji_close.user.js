@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_kuji_close
 // @namespace    http://tampermonkey.net/
-// @version      0.11.8
+// @version      0.11.9
 // @description  try to take over the world!
 // @author       You
 
@@ -40,6 +40,7 @@
 // @match        https://point.rakuten.co.jp/doc/lottery/lucky/done3.html
 // @match        https://point.rakuten.co.jp/doc/lottery/lucky/done5.html
 // @match        https://edy.rakuten.co.jp/card/system/outofservice
+// @match        https://r.gnavi.co.jp/lottery/
 
 // @downloadURL https://github.com/tyanbara/js_study/raw/master/rakuten_kuji_close.user.js
 // @updateURL   https://github.com/tyanbara/js_study/raw/master/rakuten_kuji_close.user.js
@@ -49,15 +50,6 @@
 // @grant        none
 // ==/UserScript==
 
-
-// window.onload = function () {
-//     //$(document).ready(function() {
-//     //var closer = window.open('about:blank','_self').close()
-//     // setInterval(function () {
-//     my_window_close();
-//     // }, 1000); // setInterval
-//     //});
-// };
 
 (function () {
     my_window_close();
