@@ -36,7 +36,7 @@ window.onload = function () {
             my_window_close();
         }
 
-        console.log(clickMe);
+        // console.log(clickMe);
 		console.log('OK_click');
 		// console.log(clickMe);
 		// clickMe.dispatchEvent(event);
