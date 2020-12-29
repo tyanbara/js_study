@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_pickup_close
 // @namespace    http://tampermonkey.net/
-// @version      0.11.7
+// @version      0.11.8
 // @description  try to take over the world!
 // @author       You
 
@@ -21,9 +21,15 @@
 
 // @match        https://tie-up-campaign.faq.rakuten.net/s/ask
 // @match        https://privacy.rakuten.co.jp/
+// @match        https://privacy.rakuten.co.jp/*
 // @match        https://tie-up-campaign.faq.rakuten.net/s/detail/000002491
 // @match        https://*.rakuten.co.jp/*scid=we_ich_adsol*
-// @match        https://*scid=pg_mail_kuji_no
+// @match        https://point-g.rakuten.co.jp/*scid=pg_mail_kuji_no
+// @match        https://network.mobile.rakuten.co.jp/?scid=mi_grp_rmb_group_common_20200406&trflg=1
+// @match        https://event.rakuten.co.jp/incentive/
+// @match        https://point-g.rakuten.co.jp/rapoikatsu/
+// @match        https://point-g.rakuten.co.jp/educare/
+// @match        https://www.rakuten.co.jp/sitemap/
 
 // @downloadURL https://github.com/tyanbara/js_study/raw/master/rakuten_pickup_close.user.js
 // @updateURL   https://github.com/tyanbara/js_study/raw/master/rakuten_pickup_close.user.js
