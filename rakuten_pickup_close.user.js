@@ -31,6 +31,7 @@
 // @match        https://point-g.rakuten.co.jp/educare/
 // @match        https://www.rakuten.co.jp/sitemap/
 
+
 // @downloadURL https://github.com/tyanbara/js_study/raw/master/rakuten_pickup_close.user.js
 // @updateURL   https://github.com/tyanbara/js_study/raw/master/rakuten_pickup_close.user.js
 
