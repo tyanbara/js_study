@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_pickup_close
 // @namespace    http://tampermonkey.net/
-// @version      0.11.8
+// @version      0.11.9
 // @description  try to take over the world!
 // @author       You
 
@@ -31,6 +31,8 @@
 // @match        https://point-g.rakuten.co.jp/educare/
 // @match        https://www.rakuten.co.jp/sitemap/
 
+
+// @match        https://books.rakuten.co.jp/*mi_bks_special_all_non*
 
 // @downloadURL https://github.com/tyanbara/js_study/raw/master/rakuten_pickup_close.user.js
 // @updateURL   https://github.com/tyanbara/js_study/raw/master/rakuten_pickup_close.user.js
