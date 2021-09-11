@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         rakuten_search_ref2
 // @namespace    http://tampermonkey.net/
-// @version      0.1.8
+// @version      0.1.7
 // @description  try to take over the world!
 // @author       You
 // @match        https://websearch.rakuten.co.jp/Web*
 
-
+// @require http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js
 // @downloadURL https://github.com/tyanbara/js_study/raw/master/rakuten_search_ref2.user.js
 // @updateURL   https://github.com/tyanbara/js_study/raw/master/rakuten_search_ref2.user.js
 // @grant        none
@@ -78,9 +78,8 @@ window.onload = function () {
         // var num_txt = document.getElementById("curr-kuchisu-count");
 
         // var num_txt2 = document.getElementsByClassName('KuchisuBar-module__progressCounter1__1NVVE');
-        // var num_txt2 = document.getElementsByClassName('sc-fzqNJr cShgDs KuchisuBar-module__progressCounter1__1NVVE');
-        var num_txt2 = document.getElementsByClassName('sc-fzoyAV keYMbC KuchisuBar-module__progressCounter1__1NVVE');
-
+//         var num_txt2 = document.getElementsByClassName('sc-fzqNJr cShgDs KuchisuBar-module__progressCounter1__1NVVE');
+        var num_txt2 = $('[class^=KuchisuBar-module__progressCounter1]')
 
         console.log(num_txt2[0].innerText);
         if (num_txt2[0].innerText == "30") {
