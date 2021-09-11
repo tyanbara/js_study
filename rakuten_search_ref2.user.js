@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rakuten_search_ref2
 // @namespace    http://tampermonkey.net/
-// @version      0.1.7
+// @version      0.1.8
 // @description  try to take over the world!
 // @author       You
 // @match        https://websearch.rakuten.co.jp/Web*
@@ -64,7 +64,7 @@ window.onload = function () {
         '軈て',
         'ビックリマン');
 
-    var delay_time = 10000;
+    var delay_time = 5000;
 
     setInterval(function () {
         // setTimeout(function () {
@@ -78,7 +78,9 @@ window.onload = function () {
         // var num_txt = document.getElementById("curr-kuchisu-count");
 
         // var num_txt2 = document.getElementsByClassName('KuchisuBar-module__progressCounter1__1NVVE');
-        var num_txt2 = document.getElementsByClassName('sc-fzqNJr cShgDs KuchisuBar-module__progressCounter1__1NVVE');
+        // var num_txt2 = document.getElementsByClassName('sc-fzqNJr cShgDs KuchisuBar-module__progressCounter1__1NVVE');
+        var num_txt2 = document.getElementsByClassName('sc-fzoyAV keYMbC KuchisuBar-module__progressCounter1__1NVVE');
+
 
         console.log(num_txt2[0].innerText);
         if (num_txt2[0].innerText == "30") {
