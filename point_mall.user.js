@@ -1,15 +1,14 @@
 // ==UserScript==
-// @name         point_mall
+// @name         mail_de_point
 // @namespace    http://tampermonkey.net/
-// @version      0.0.1
+// @version      0.0.0
 // @description  try to take over the world!
 // @author       You
+// @match        https://member.pointmail.rakuten.co.jp/box
 
-// @match        https://pointmall.rakuten.co.jp/*
-// @match        https://pointmall.rakuten.co.jp/
 
-// @downloadURL https://github.com/tyanbara/js_study/raw/master/point_mall.user.js
-// @updateURL   https://github.com/tyanbara/js_study/raw/master/point_mall.user.js
+// @downloadURL https://github.com/tyanbara/js_study/raw/master/mail_de_point.user.js
+// @updateURL   https://github.com/tyanbara/js_study/raw/master/mail_de_point.user.js
 
 // @require      https://github.com/tyanbara/js_study/raw/master/window_close.user.js
 
@@ -17,16 +16,34 @@
 // ==/UserScript==
 
 
+
 var delay_time = 3 * 1000;
 
-window.onload = function () {
-    setTimeout(function () {
-        // var owari = document.getElementsByClassName('sub-header__nav03-getpoint')
-        var owari = document.getElementsByClassName('is-clear')
-        console.log(owari.length)
-        if (owari.length == 6) {
-            my_window_close();
+
+
+// window.onload = function () {
+	setTimeout(function () {
+		var clickMe = document.getElementsByClassName("pointNotGetCount");
+        if (clickMe[0].length == '0') {
+			console.log('mail_0');
+            // consle.log(clickMe2)
+            // my_window_close();
         }
 
-    }, delay_time);
-};
+		// console.log('OK_click');
+        // console.log(clickMe[0].length );
+		// console.log('OK_click');
+        if(clickMe == null){
+        }else if(clickMe[0].innerText == "0件"){
+            console.log('OK_click!!!!');
+            my_window_close();
+        }
+		// console.log(clickMe);
+		// clickMe.dispatchEvent(event);
+		// clickMe.click();
+
+
+	}, delay_time);
+//  };
+// });
+
